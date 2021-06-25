@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    font-size: 12px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+header .logo {
+    margin-top: 5px;
+}
+
+header a{
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+header ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    opacity: 0.7;
+}
+header ul li:hover{
+    opacity: 1;
+}
+header ul li img{
+    width: 30px;
+    height: 30px;
+    transform: translateY(10px);
+    border-radius: 90%;
+    margin-right: 10px;
+}
+
+.drop-nav{
+    position: relative;
+    padding: 10px 0;
+}
+.drop-nav a{
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.drop-nav .dropdown{
+    position: absolute;
+    background: #000000;
+    width: 100%;
+    width: calc(100% + 30px);
+    top: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+.drop-nav:hover .dropdown{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    min-width: 160px;
+    right: 0;
+
+}
+
+header ul{
+    transform: translateY(-5px);
+}
+
+.dashboard{
+    position: absolute;
+    background: #282c34;
+    width: 100%;
+    width: calc(100% + 30px);
+    top: 50px;
+    display: none;
+}
+
+.navigasyon{
+    display: inline;
+}
